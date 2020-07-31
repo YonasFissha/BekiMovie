@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/BekiMovie/static/css/main.36497136.chunk.css",
-    "main.js": "/BekiMovie/static/js/main.2c2ea6f3.chunk.js",
-    "main.js.map": "/BekiMovie/static/js/main.2c2ea6f3.chunk.js.map",
+    "main.js": "/BekiMovie/static/js/main.fa26594e.chunk.js",
+    "main.js.map": "/BekiMovie/static/js/main.fa26594e.chunk.js.map",
     "runtime-main.js": "/BekiMovie/static/js/runtime-main.59c98f0d.js",
     "runtime-main.js.map": "/BekiMovie/static/js/runtime-main.59c98f0d.js.map",
-    "static/css/2.cad47578.chunk.css": "/BekiMovie/static/css/2.cad47578.chunk.css",
-    "static/js/2.a29a2bd8.chunk.js": "/BekiMovie/static/js/2.a29a2bd8.chunk.js",
-    "static/js/2.a29a2bd8.chunk.js.map": "/BekiMovie/static/js/2.a29a2bd8.chunk.js.map",
+    "static/css/2.b4d850ba.chunk.css": "/BekiMovie/static/css/2.b4d850ba.chunk.css",
+    "static/js/2.53f8761f.chunk.js": "/BekiMovie/static/js/2.53f8761f.chunk.js",
+    "static/js/2.53f8761f.chunk.js.map": "/BekiMovie/static/js/2.53f8761f.chunk.js.map",
     "index.html": "/BekiMovie/index.html",
-    "precache-manifest.7e0eee0cba25a5a3094c6aa31ddbb874.js": "/BekiMovie/precache-manifest.7e0eee0cba25a5a3094c6aa31ddbb874.js",
+    "precache-manifest.c3a8e40575832c7b38144d6023ba11a7.js": "/BekiMovie/precache-manifest.c3a8e40575832c7b38144d6023ba11a7.js",
     "service-worker.js": "/BekiMovie/service-worker.js",
-    "static/css/2.cad47578.chunk.css.map": "/BekiMovie/static/css/2.cad47578.chunk.css.map",
+    "static/css/2.b4d850ba.chunk.css.map": "/BekiMovie/static/css/2.b4d850ba.chunk.css.map",
     "static/css/main.36497136.chunk.css.map": "/BekiMovie/static/css/main.36497136.chunk.css.map",
-    "static/js/2.a29a2bd8.chunk.js.LICENSE.txt": "/BekiMovie/static/js/2.a29a2bd8.chunk.js.LICENSE.txt",
+    "static/js/2.53f8761f.chunk.js.LICENSE.txt": "/BekiMovie/static/js/2.53f8761f.chunk.js.LICENSE.txt",
     "static/media/all.css": "/BekiMovie/static/media/fa-solid-900.ee09ad75.woff",
     "static/media/font-awesome.css": "/BekiMovie/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.59c98f0d.js",
-    "static/css/2.cad47578.chunk.css",
-    "static/js/2.a29a2bd8.chunk.js",
+    "static/css/2.b4d850ba.chunk.css",
+    "static/js/2.53f8761f.chunk.js",
     "static/css/main.36497136.chunk.css",
-    "static/js/main.2c2ea6f3.chunk.js"
+    "static/js/main.fa26594e.chunk.js"
   ]
 }
