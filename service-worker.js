@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BekiMovie/precache-manifest.1ebaa3642bbb61bce16d28ab5a2549e8.js"
+  "/BekiMovie/precache-manifest.5b42bcc1798c784b4c0526765fcd4539.js"
 );
 
 self.addEventListener('message', (event) => {
