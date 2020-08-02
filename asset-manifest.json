@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BekiMovie/static/css/main.36497136.chunk.css",
-    "main.js": "/BekiMovie/static/js/main.1c3f79cb.chunk.js",
-    "main.js.map": "/BekiMovie/static/js/main.1c3f79cb.chunk.js.map",
+    "main.js": "/BekiMovie/static/js/main.24a6648d.chunk.js",
+    "main.js.map": "/BekiMovie/static/js/main.24a6648d.chunk.js.map",
     "runtime-main.js": "/BekiMovie/static/js/runtime-main.59c98f0d.js",
     "runtime-main.js.map": "/BekiMovie/static/js/runtime-main.59c98f0d.js.map",
     "static/css/2.b4d850ba.chunk.css": "/BekiMovie/static/css/2.b4d850ba.chunk.css",
     "static/js/2.483d0518.chunk.js": "/BekiMovie/static/js/2.483d0518.chunk.js",
     "static/js/2.483d0518.chunk.js.map": "/BekiMovie/static/js/2.483d0518.chunk.js.map",
     "index.html": "/BekiMovie/index.html",
-    "precache-manifest.b9fd238fa374fd6e3477a30035f9f185.js": "/BekiMovie/precache-manifest.b9fd238fa374fd6e3477a30035f9f185.js",
+    "precache-manifest.1ebaa3642bbb61bce16d28ab5a2549e8.js": "/BekiMovie/precache-manifest.1ebaa3642bbb61bce16d28ab5a2549e8.js",
     "service-worker.js": "/BekiMovie/service-worker.js",
     "static/css/2.b4d850ba.chunk.css.map": "/BekiMovie/static/css/2.b4d850ba.chunk.css.map",
     "static/css/main.36497136.chunk.css.map": "/BekiMovie/static/css/main.36497136.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.b4d850ba.chunk.css",
     "static/js/2.483d0518.chunk.js",
     "static/css/main.36497136.chunk.css",
-    "static/js/main.1c3f79cb.chunk.js"
+    "static/js/main.24a6648d.chunk.js"
   ]
 }
