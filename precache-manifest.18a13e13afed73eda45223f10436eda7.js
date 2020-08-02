@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "047525bdf4f018ab780d32c4f2799415",
+    "revision": "aa96b2613fe977bdcfabda6047e8ce8f",
     "url": "/BekiMovie/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BekiMovie/static/css/2.b4d850ba.chunk.css"
   },
   {
-    "revision": "8bf04eff18ccc42ab15e",
+    "revision": "25aa5b3b4c9cb881c42c",
     "url": "/BekiMovie/static/css/main.36497136.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BekiMovie/static/js/2.483d0518.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8bf04eff18ccc42ab15e",
-    "url": "/BekiMovie/static/js/main.2f1dbcdb.chunk.js"
+    "revision": "25aa5b3b4c9cb881c42c",
+    "url": "/BekiMovie/static/js/main.c3378413.chunk.js"
   },
   {
     "revision": "bae8ced1a62b86b456f0",
