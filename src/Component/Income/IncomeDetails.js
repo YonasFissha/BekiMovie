@@ -14,6 +14,9 @@ import {
 } from "react-redux-firebase";
 
 class IncomeDetails extends Component {
+  stare = {
+    totalIncome: 0,
+  };
   formatNumber(num) {
     return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
   }
@@ -43,7 +46,7 @@ class IncomeDetails extends Component {
               <div className="btn-group float-right">
                 <Link
                   to={`/income/editincome/${income.id}`}
-                  className="btn btn-dark btn-sm"
+                  className="btn btn-info btn-sm"
                 >
                   Edit
                 </Link>
@@ -65,9 +68,65 @@ class IncomeDetails extends Component {
             <div className="card-body">
               <ul className="list-group">
                 <li className="list-group-item">
-                  <div>
-                    <h6>
-                      <span className="text-secondary">Income:</span> $
+                  <div className="row justify-content-center">
+                    <div className="col 3">
+                      <p>
+                        <span className="text-secondary">Movie</span> $
+                        <span
+                          className={classnames({
+                            "text-danger": income.Income < 20,
+                            "text-warning":
+                              income.Income > 20 && income.Income < 50,
+                            "text-success": income.Income > 49,
+                          })}
+                        >
+                          {this.formatNumber(
+                            parseFloat(income.movieIncome).toFixed(2)
+                          )}
+                        </span>
+                      </p>
+                    </div>
+                    <div className="col 3">
+                      <p>
+                        <span className="text-secondary">Card</span> $
+                        <span
+                          className={classnames({
+                            "text-danger": income.Income < 20,
+                            "text-warning":
+                              income.Income > 20 && income.Income < 50,
+                            "text-success": income.Income > 49,
+                          })}
+                        >
+                          {this.formatNumber(
+                            parseFloat(income.cardIncome).toFixed(2)
+                          )}
+                        </span>
+                      </p>
+                    </div>
+                    <div className="col 3">
+                      <p>
+                        <span className="text-secondary">Software</span> $
+                        <span
+                          className={classnames({
+                            "text-danger": income.Income < 20,
+                            "text-warning":
+                              income.Income > 20 && income.Income < 50,
+                            "text-success": income.Income > 49,
+                          })}
+                        >
+                          {this.formatNumber(
+                            parseFloat(income.softwareIncome).toFixed(2)
+                          )}
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="row justify-content-center border mt-2">
+                    <p className="text-center text-primary mt-2">
+                      <span className="text-primary">
+                        <strong>Total Income :</strong>{" "}
+                      </span>{" "}
+                      $
                       <span
                         className={classnames({
                           "text-danger": income.Income < 20,
@@ -77,10 +136,14 @@ class IncomeDetails extends Component {
                         })}
                       >
                         {this.formatNumber(
-                          parseFloat(income.Income).toFixed(2)
+                          (
+                            parseFloat(income.movieIncome) +
+                            parseFloat(income.cardIncome) +
+                            parseFloat(income.softwareIncome)
+                          ).toFixed(2)
                         )}
                       </span>
-                    </h6>
+                    </p>
                   </div>
                 </li>
                 <li className="list-group-item">
@@ -94,8 +157,8 @@ class IncomeDetails extends Component {
                 <li className="list-group-item">
                   <div>
                     <h6>
-                      <span className="text-secondary">Balance: </span>$
-                      {this.formatNumber(parseFloat(income.Balance).toFixed(2))}
+                      <span className="text-secondary">Description: </span>
+                      {income.Description}
                     </h6>
                   </div>
                 </li>
